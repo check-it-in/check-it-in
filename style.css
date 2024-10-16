@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc; /* Beige background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #f57c00; /* Orange color for headings */
+    background-color: black;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.post {
+    margin-top: 40px;
+}
+
+.post-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.post-title {
+    font-size: 2.5em;
+    color: #f57c00; /* Orange color for headings */
+    background-color: black;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.post-summary {
+    font-size: 1.5em;
+    color: #333; /* Darker text for summaries */
+    margin: 10px 0;
+}
+
+.post-content {
+    font-size: 1.2em;
+    color: #222; /* Dark text for the main content */
+    line-height: 1.8;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+    
+    header h1 {
+        font-size: 2.5em;
+    }
+    
+    .post-title {
+        font-size: 2em;
+    }
+
+    .post-content {
+        font-size: 1.1em;
+    }
+}
